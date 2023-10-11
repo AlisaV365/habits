@@ -4,11 +4,391 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be9ee528-5af0-4a6f-9dd7-917260f5cf26" name="Changes" comment="работа 7">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="be9ee528-5af0-4a6f-9dd7-917260f5cf26" name="Changes" comment="Оформление Dockerfile.">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.sample" beforeDir="false" afterPath="$PROJECT_DIR$/.env.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/habits.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/habits.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram_bot/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram_bot/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.11" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pygmentize" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pygmentize" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/LICENSE.python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Django-4.2.4.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/IPython/core/crashhandler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/ImageFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/ImageFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/PdfParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/PdfParser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/PngImagePlugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/PIL/PngImagePlugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/Pygments-2.16.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/conf/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/conf/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/conf/global_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/conf/global_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/sites.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/templatetags/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/templatetags/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/views/autocomplete.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/views/autocomplete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/views/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/views/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admin/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admindocs/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/admindocs/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/backends.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/base_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/base_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/checks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/checks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/decorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/handlers/modwsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/handlers/modwsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/commands/changepassword.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/commands/changepassword.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/commands/createsuperuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/management/commands/createsuperuser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0003_alter_user_email_max_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0003_alter_user_email_max_length.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0004_alter_user_username_opts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0004_alter_user_username_opts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0005_alter_user_last_login_null.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0005_alter_user_last_login_null.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/password_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/password_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/contenttypes/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/contenttypes/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/flatpages/templatetags/flatpages.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/flatpages/templatetags/flatpages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/flatpages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/flatpages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/db/backends/postgis/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/db/backends/postgis/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/gdal/srs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/gdal/srs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/utils/layermapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/utils/layermapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/utils/ogrinspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/gis/utils/ogrinspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/sessions/middleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/sessions/middleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/contrib/staticfiles/management/commands/collectstatic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/checks/security/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/checks/security/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/checks/security/sessions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/checks/security/sessions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/files/uploadedfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/files/uploadedfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/flush.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/flush.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/makemigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/makemigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/migrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/migrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/squashmigrations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/squashmigrations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/testserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/management/commands/testserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/servers/basehttp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/servers/basehttp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/core/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/base/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/base/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/base/schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/base/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/mysql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/mysql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/mysql/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/mysql/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/oracle/creation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/oracle/creation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/postgresql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/postgresql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/backends/sqlite3/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/autodetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/autodetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/operations/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/operations/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/questioner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/migrations/questioner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/deletion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/deletion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/expressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/expressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/related.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/related.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/fields/related_descriptors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/functions/datetime.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/functions/datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/lookups.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/lookups.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/sql/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/db/models/sql/query.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/forms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/forms/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/forms/widgets.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/forms/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/http/multipartparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/http/multipartparser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/http/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/http/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/csrf.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/csrf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/locale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/middleware/locale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/test/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/test/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/test/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/test/testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/utils/translation/trans_real.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/utils/translation/trans_real.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/decorators/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/decorators/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/generic/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/generic/detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/generic/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/generic/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/i18n.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/i18n.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/django/views/static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi-0.19.0.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/completion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/completion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/keywords.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/keywords.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/refactoring/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/refactoring/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/refactoring/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/refactoring/extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/api/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/base_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/base_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/access.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/access.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/mixed.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/mixed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/subprocess/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/subprocess/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/subprocess/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/subprocess/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/value.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/compiled/value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/dynamic_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/dynamic_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/gradual/annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/gradual/annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/gradual/typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/gradual/typing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/syntax_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/syntax_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/sys_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/sys_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/value/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/inference/value/function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/plugins/pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/plugins/pytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/plugins/stdlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/plugins/stdlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/third_party/django-stubs/django-stubs/conf/global_settings.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/third_party/django-stubs/django-stubs/conf/global_settings.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/third_party/typeshed/stdlib/3/os/__init__.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/third_party/typeshed/stdlib/3/os/__init__.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/jedi/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip-23.2.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip-23.2.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/build_env.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/build_env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/autocompletion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/autocompletion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/base_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/base_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/cmdoptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/cmdoptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/main_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/main_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/req_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/req_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/spinners.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/cli/spinners.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/freeze.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/configuration.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/configuration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/index/package_finder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/index/package_finder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/_distutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/_distutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/_sysconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/locations/_sysconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/metadata/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/metadata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/metadata/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/metadata/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/direct_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/direct_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/installation_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/installation_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/models/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/network/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/network/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/network/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/network/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/pyproject.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/pyproject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/req/req_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/req/req_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/req/req_uninstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/legacy/resolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/legacy/resolver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/candidates.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/candidates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/reporter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/reporter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/requirements.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/resolution/resolvelib/requirements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/self_outdated_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/self_outdated_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/compatibility_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/compatibility_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/deprecation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/deprecation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/logging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/logging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/misc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/setuptools_build.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/subprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/subprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/unpacking.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/utils/unpacking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/git.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/git.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/subversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/versioncontrol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_internal/vcs/versioncontrol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/chardet/universaldetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/scripts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distlib/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distro/distro.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/distro/distro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/msgpack/fallback.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/packaging/tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/packaging/tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/packaging/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/packaging/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/android.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/android.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/macos.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/macos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/unix.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/unix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/platformdirs/windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/cmdline.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/cmdline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/formatters/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/formatters/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pygments/scanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pyparsing/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pyparsing/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pyparsing/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/pyparsing/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/adapters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/adapters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/cookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/cookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/requests/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/resolvelib/resolvers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/resolvelib/resolvers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/console.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/live.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/live.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/rich/prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/typing_extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/typing_extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/connectionpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/poolmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/ssl_.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/timeout.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libcom_err.3.0.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libcom_err.3.0.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libcrypto.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libgssapi_krb5.2.2.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libgssapi_krb5.2.2.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libk5crypto.3.1.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libk5crypto.3.1.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libkrb5.3.3.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libkrb5.3.3.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libkrb5support.1.1.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libkrb5support.1.1.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libpq.5.14.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libpq.5.14.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/.dylibs/libssl.3.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/_psycopg.cpython-311-darwin.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2/_psycopg.cpython-311-darwin.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/REQUESTED" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/psycopg2_binary-2.9.7.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/cmdline.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/cmdline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/formatters/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/formatters/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/formatters/img.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/formatters/img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_cl_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_cl_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_css_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_css_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_lasso_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_lasso_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_mapping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_mysql_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_mysql_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_scheme_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_scheme_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_scilab_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_scilab_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_tsql_builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/_tsql_builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/asc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/asc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/asn1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/blueprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/bqn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/c_cpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/c_cpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/carbon.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/carbon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/cddl.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/cddl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/configs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/cplint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/cplint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/dns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/dsls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/dsls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/dylan.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/dylan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/elpi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/elpi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/go.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/go.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/graphql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/html.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/igor.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/igor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/installers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/installers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/lisp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/lisp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/macaulay2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/macaulay2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/markup.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/markup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/openscad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/ptx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/rebol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/rebol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/ruby.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/ruby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/sas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/sas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/scdoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/scdoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/scripting.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/scripting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/shell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/spice.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/spice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/tal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/tal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/teraterm.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/teraterm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/textfmts.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/textfmts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/theorem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/theorem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/tls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/verifpal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/wowtoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/wowtoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/yang.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/yang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/lexers/yara.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/scanner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/scanner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/sphinxext.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/sphinxext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/autumn.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/autumn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/borland.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/borland.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/bw.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/bw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/colorful.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/colorful.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/dracula.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/dracula.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/emacs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/emacs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/friendly.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/friendly.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/friendly_grayscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/friendly_grayscale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/gh_dark.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/gh_dark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/gruvbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/gruvbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/inkpot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/inkpot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/lightbulb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/lovelace.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/lovelace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/manni.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/manni.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/material.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/material.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/monokai.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/monokai.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/murphy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/murphy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/native.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/native.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/nord.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/nord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/paraiso_dark.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/paraiso_dark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/paraiso_light.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/paraiso_light.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/pastie.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/pastie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/perldoc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/perldoc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/rainbow_dash.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/rainbow_dash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/solarized.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/solarized.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/tango.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/tango.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/trac.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/trac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/vim.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/vim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/vs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/styles/vs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/token.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.11/site-packages/pygments/token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +405,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2UhyKqYRqoOBF5Mn3m6NdgSe3vk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,6 +422,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/alisavorotnikova/Desktop/habits/users&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
@@ -56,6 +444,96 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/users" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="habits" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yaml.web: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.db: Compose Deployment" />
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,11 +560,40 @@
       <option name="project" value="LOCAL" />
       <updated>1694296916752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Оформление Dockerfile">
+      <option name="closed" value="true" />
+      <created>1694716228007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694716228008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Оформление Dockerfile">
+      <option name="closed" value="true" />
+      <created>1694716310315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694716310316</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="работа 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="работа 7" />
+    <MESSAGE value="Оформление Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Оформление Dockerfile" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>
